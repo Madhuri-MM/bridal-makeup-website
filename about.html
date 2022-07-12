@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:black;
+  color: white;
+}
+
+.topnav a.active {
+  background-color:pink;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="file:///C:/Users/m%20mahesh/Desktop/bridal%20makeup.html">Home</a>
+  <a href="file:///C:/Users/m%20mahesh/Desktop/about.html">About Us</a>
+  
+
+  <a href="file:///C:/Users/m%20mahesh/Desktop/album.html">Album</a>
+  <a href="file:///C:/Users/m%20mahesh/Desktop/contact.html">Contact Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+
+
+
+
+
+
+<div class="w3-button w3-bar-item">
+  <h1>About Us Page</h1>
+  <p>Our Team members are extremely famous bridal makeup artist. A professional with experience, they are skilled and truly an experts in every sense of the word. Creative and incredibly passionate, they transforms every bride into nothing short of a dream. With their professionalism,they can hide anything you consider a shortcoming, and assist you to exude an unmatched level of confidence.
+
+</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/550x/81/f8/e1/81f8e14b11be168c0bff86502bc5060e.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Haritha</h2>
+        <p class="title">Hair Stylisher</p>
+        <p>Professional Hair Stylisher</p>
+        <p>Haritha@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/42/da/d6/42dad6d1cf2dbe78517380626af16a24.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Madhuri</h2>
+        <p class="title">Makeup Artist</p>
+        <p>Professional Makeup Artist</p>
+        <p>Madhuri@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/98/2b/37/982b37dd-fcf1-f5e5-e705-33b4b64b355a/source/512x512bb.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Maheswari</h2>
+        <p class="title">Dress Designer</p>
+        <p>Professional Dress Designer</p>
+        <p>Maheswari@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
